@@ -1,0 +1,690 @@
+/*This css is for all body font family,background color*/
+body{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color:white;
+
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ ul{
+
+	margin: 0;
+	padding: 0;
+}
+/*header*/
+header{
+
+	background:#e1e8f0;
+	color: black;
+	padding-top:30px; 
+	min-height:70px;
+	border-bottom:blue 3px solid; 
+
+}
+header a{
+
+	color: #FF0000;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header li{
+
+	float: left;
+	display: inline;
+	padding: 0 30px 0 20px;
+
+}
+header #branding{
+
+	float: left;
+}
+header #branding h1{
+
+	margin: 0;
+}
+header nav{
+
+	float: right;
+	margin-top: 10px;
+	text-decoration: none;
+}
+header .current a{
+
+	color:#3F07FA;
+}
+header a:hover{
+
+	color: black;
+	font-weight: all;
+	transition: 
+}body{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color:white;
+
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ ul{
+
+	margin: 0;
+	padding: 0;
+}
+/*header*/
+header{
+
+	background:#e1e8f0;
+	color: black;
+	padding-top:30px; 
+	min-height:70px;
+	border-bottom:blue 3px solid; 
+
+}
+header a{
+
+	color: #FF0000;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header li{
+
+	float: left;
+	display: inline;
+	padding: 0 30px 0 20px;
+
+}
+header #branding{
+
+	float: left;
+}
+header #branding h1{
+
+	margin: 0;
+}
+header nav{
+
+	float: right;
+	margin-top: 10px;
+	text-decoration: none;
+}
+header .current a{
+
+	color:#3F07FA;
+}
+header a:hover{
+
+	color: black;
+	font-weight: all;
+	transition: 
+}
+/*Home page css*/
+#showcase{
+
+	min-height: 400px;
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,1.5)),url('../images/background.jpg') no-repeat 0 -400px;
+	text-align: center;
+	color: #ffffff;
+
+}
+#showcase h1{
+
+	margin: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	
+}
+#showcase h2{
+
+	margin: 10px;
+	font-size: 35px;
+	margin-bottom: 10px;
+
+}
+#showcase p{
+	font-size: 20px;
+}
+#newsletter{
+	padding:15px; 
+	color:yellow;
+	background:black; 
+
+}
+/*Offer page in Home page*/
+
+#boxes .special{
+	float: left;
+}
+
+
+#boxes .dashain{
+	float:right;
+
+}
+#boxes .space{
+	float: left;
+	margin-left: 170px
+
+}
+#boxes .space{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+/*css animate*/
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+  10% { transform: translate(-2px, -3px) rotate(-1deg); }
+  20% { transform: translate(-4px, 1px) rotate(1deg); }
+  30% { transform: translate(4px, 3px) rotate(0deg); }
+  40% { transform: translate(2px, -2px) rotate(1deg); }
+  50% { transform: translate(-2px, 3px) rotate(-1deg); }
+  60% { transform: translate(-4px, 2px) rotate(0deg); }
+  70% { transform: translate(4px, 2px) rotate(-1deg); }
+  80% { transform: translate(-2px, -2px) rotate(1deg); }
+  90% { transform: translate(2px, 3px) rotate(0deg); }
+  100% { transform: translate(2px, -3px) rotate(-1deg); }
+}
+
+
+/*offer list with images price and offer price*/
+
+.sp-box{
+	padding: 35px;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+	height: 350px;
+}
+.sp-box:hover{
+	box-shadow: 0 0 2px 1px #bdb5b5;
+}
+.image-sp{
+	width: 100%;
+	height: 150px;
+}
+.box-header{
+	background-color: transparent;
+}
+.box-body{
+
+}
+.header-item{
+	padding: 5px;
+}
+.price{
+	font-size: 20px;
+	color: #e8491d;
+}
+.discount{
+	font-size: 10px;
+	color: black;
+}
+.order{
+	background-color:  #e8491d;
+	width: 100%;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+}
+.order:hover{
+	background-color:  #f56b44;
+	transition: 0.5s;
+}
+.item-top{
+	height: 800px;
+}
+.offerheader{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: red;
+	text-decoration-line: underline;
+
+}
+
+/*About page */
+
+.about{
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #DFDCF3; 
+}
+/*Staff info with photo , name and post*/
+.pro{
+	height: 800px;
+}
+.pro-box{
+	padding: 35px;
+	width: 400px;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+	height: 500px;
+}
+.pro-box:hover{
+	box-shadow: 0 0 2px 1px #bdb5b5;
+}
+
+.pro-img{
+	background-color: transparent;
+}
+.pro-photo{
+	width: 100%;
+	height: 400px;
+}
+.pro-body{
+	text-align: center;
+}
+.pro-name{
+	padding: 5px;
+}
+.pro-post{
+	font-size: 20px;
+	color: #e8491d;
+}
+.staff-info{
+	font-weight: bold;
+	text-decoration-line: underline;
+	color: red;
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+}
+
+/*Image slide JS*/
+
+.slide-image{
+	background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('../images/nepal.jpg');
+	width: 100%;
+	height: 570px;
+	margin: 0;
+	padding: 0;
+		
+	
+	
+}
+#slide-image1{
+	width: 50%;
+	height: 500px;
+	margin-left: 25%;
+	border-radius: 20px;
+}
+.slide-image h1{
+	color: white;
+	text-decoration-line: underline;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+/*Search Botton*/
+
+.search-box{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 67%;
+	transform: translate(-50%,-50%);
+	background: #e1e8f0;
+	height: 30px;
+	border-radius: 40px;
+	padding: 5px;
+
+}
+.fa-search{
+	height: 20px;
+	width: 20px;
+}
+.search-box:hover > .search-txt{
+	width: 220px;
+	padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+	background: #e1e8f0;
+}
+.search.btn{
+	color: #e84118;
+	float: right;
+	width: 40px;
+	height: 30px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0,4s;
+}
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: red;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 30px;
+	width: 0px;
+
+}
+/*Contact*/
+/*Suggest box */
+		.contact-info{
+			margin-top: 30px;
+			float: left;
+			padding: 25px;
+			background-color: rgba(0,0,0,.8);;
+			height: 200px;
+			width: 300px;
+			margin-left: 10px;
+			border-radius: 15px;
+			color: white;
+
+		}
+		.contact-icon{
+			float: right;
+			height: 100px;
+			padding: 25px;
+			margin-right: 40px;
+		}
+
+
+	.contact-background{
+
+		margin-top: 260px;
+		width: 400px;
+		height: 235px;
+		margin-left: 35%;
+		border-radius: 15px;
+		/*background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url('../images/contact.jpeg');*/
+		
+	}
+ .box-1{
+ 	
+ 	margin-top: 260px;
+ 	margin-left: 50%;	
+ 	transform: translate(-50%,-50%);
+ 	width: 400px;
+ 	padding: 40px;
+ 	background: rgba(0,0,0,.8);
+ 	box-sizing: border-box;
+ 	box-shadow: 0   5px rgba(0,0,0,.5);
+ 	border-radius: 15px;s
+ }
+ .box-1 h2{
+ 	margin: 0 0 30px;
+ 	padding: 0;
+ 	color: #fff;
+ 	text-align: center;
+ }
+ .box-1 .inputbox{
+ 	position: relative;
+
+ }
+ .box-1 .inputbox input{
+ 	width: 100%;
+ 	padding: 10px 0;
+ 	font-size: 16px;
+ 	color: #fff;
+ 	letter-spacing: 1px;
+ 	margin-bottom: 30px;
+ 	border: none; 
+ 	border-bottom: 1px solid #fff;
+ 	outline: none;
+ 	background: transparent;
+ }
+ .box-1 .inputbox textarea{
+ 	width: 100%;
+ 	padding: 10px 0;
+ 	font-size: 16px;
+ 	color: #fff;
+ 	letter-spacing: 1px;
+ 	margin-bottom: 30px;
+ 	border: none; 
+ 	border-bottom: 1px solid #fff;
+ 	outline: none;
+ 	background: transparent;
+ }
+.box-1 .inputbox label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+ 	font-size: 16px;
+ 	color: #fff;
+ 	pointer-events: none;
+ 	transition: .5s;
+}
+.box-1 .inputbox input:focus ~ label,
+.box-1 .inputbox input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+
+}
+.box-1 .inputbox textarea:focus ~ label,
+.box-1 .inputbox textarea:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+
+}
+.box-1 input[type="submit"]{
+  	background: transparent;
+  	border: none;
+  	outline: none;
+  	color: #fff;
+  	background: #03a9f4;
+  	padding: 10px 20px;
+  	cursor: pointer;
+  	border-radius: 5px;
+}
+
+
+/*Products*/
+/*company name and its product*/
+
+.company-name{
+		text-align: center;
+		font-size: 30px;
+		color: red;
+		padding: 15px;
+		font-weight: bolder;
+	}
+		.items-name ul{
+			list-style-type:disc;
+			font-size: 20px;
+			
+		}
+		.product-1{
+			height: 1500px;
+		    
+		}
+		.product-2{
+	padding: 25px;
+	width: 230px;
+	margin-left: 20px;
+	
+	float: left;
+	height: 350px;
+}
+.product-2:hover{
+	box-shadow: 0 0 2px 1px #bdb5b5;
+}
+.product-company{
+	font-size: 30px;
+	color: #e8491d;
+	margin-left: 30px;
+}
+
+
+/*TOP to Button*/
+
+
+#top-btn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: blue; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+#top-btn:hover {
+  background-color: #555; 
+}
+/*categories*/
+
+ .categories-swiper {
+      background: #84CEFB;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 2500px;
+
+    }
+    .swiper-container {
+      width: 100%;
+      padding-top: 40px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 400px;
+      background: #fff;
+    }
+    .swiper-slide .imgBx{
+    	width: 100%;
+      height: 300px;
+    }
+    .swiper-slide .imgBx img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .swiper-slide .details-1{
+    	box-sizing: border-box;
+    	
+    	padding: 20px;
+    }
+    .swiper-slide .details-1 h3{
+    	margin: 0;
+    	padding: 0;
+    	font-size: 16px;
+    	font-weight: bold;
+    	text-align: center;
+    	line-height: 20px;
+    }
+    .swiper-slide .details-1 h3 span{
+    	font-size: 20px;
+    	color: #f44336;
+
+    }
+    .categories-header{
+    	text-align: center;
+    	padding: 5px;
+
+    }
+    .list {
+    	height: 25px;
+    	width: 400px;
+    	margin-left: 40%;
+    	padding: 5px;
+    	font-weight: bold;
+    	font-size: 20px;
+    	
+
+    }
+    .list a{
+    	text-decoration: none;
+    }
+    
+    @media only screen and (max-width: 480px){
+    	.container{
+    		width: 95%;
+    	}
+    }
+/*hide and show for details of purbi kiran urja in about page*/
+.show {
+   /*display:table;*/
+   /*text-align:center;*/
+   /*margin: 50px auto;*/
+   /*max-width:550px;*/
+   /*text-transform:uppercase;*/
+}
+.about button {
+   background-color:#f00;
+   color:#fff;
+   font-size:20px;
+   border:none;
+   /*padding: 15px 30px;*/
+   text-transform:uppercase;
+   &:hover {
+      cursor:pointer;
+   }
+   &:focus {
+      outline:none;
+   }
+}
+/*.show{
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #DFDCF3; 
+}*/
+     
+
+
+/*footer*/
+/*all page footer style */
+footer{
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+   flex-shrink: 0; 
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+
